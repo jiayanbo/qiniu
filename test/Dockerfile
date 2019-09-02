@@ -1,6 +1,6 @@
 FROM golang
 RUN mkdir -p /qiniu
-COPY . /qiniu
+COPY .. /qiniu
 WORKDIR /qiniu
 #ENV 设置环境变量
 ENV GOPROXY https://goproxy.io 
