@@ -87,3 +87,8 @@ func download(fileFullPath, url string) {
 	}
 	io.Copy(f, res.Body)
 }
+
+func compareFile(){
+
+
+}
