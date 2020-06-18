@@ -20,8 +20,8 @@ var (
 	bucket =flag.String("b", "sonkwo-gamefile", "bucket")
 )
 
-var accessKey string = "42W5KgVowhDP_NL_j85uvpTARFhsbUwZzfGGS2R5"
-var	secretKey string  = "Px04ihNML4IyGNtezVZn0-Q2L4W-dcNXd5Rx8FV_"
+var accessKey string = "xxxx"
+var	secretKey string  = "xxxxx"
 func main(){
 	flag.Parse()
 	uploadFile()
